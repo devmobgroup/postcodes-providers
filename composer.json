@@ -1,0 +1,40 @@
+{
+    "name": "devmobgroup/postcodes-providers",
+    "description": "Providers for devmobgroup/postcodes",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Jeffrey Angenent",
+            "email": "jeffrey.angenent@devmob.com"
+        },
+        {
+            "name": "Maarten Paauw",
+            "email": "maartenpaauw@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=7.1",
+        "ext-json": "*",
+        "devmobgroup/postcodes": "^0.1"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^7.3"
+    },
+    "replace": {
+        "devmobgroup/postcodes-api-postcode": "self.version",
+        "devmobgroup/postcodes-postcode-api-nu": "self.version"
+    },
+    "autoload": {
+        "psr-4": {
+            "DevMob\\Postcodes\\Providers\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "DevMob\\Postcodes\\Providers\\Tests\\": "tests/"
+        }
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true
+}

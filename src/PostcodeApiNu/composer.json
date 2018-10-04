@@ -1,0 +1,27 @@
+{
+    "name": "devmobgroup/postcodes-postcode-api-nu",
+    "description": "PostcodeAPI.nu provider for the Postcodes package",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Jeffrey Angenent",
+            "email": "jeffrey.angenent@devmob.com"
+        },
+        {
+            "name": "Maarten Paauw",
+            "email": "maartenpaauw@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=7.1",
+        "devmobgroup/postcodes": "^0.1"
+    },
+    "autoload": {
+        "psr-4": {
+            "DevMob\\Postcodes\\Providers\\PostcodeApiNu\\": ""
+        }
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true
+}

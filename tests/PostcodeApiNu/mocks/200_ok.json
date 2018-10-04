@@ -1,0 +1,74 @@
+{
+    "_embedded": {
+        "addresses": [
+            {
+                "purpose": "kantoorfunctie",
+                "postcode": "3011ED",
+                "surface": 301,
+                "municipality": {
+                    "id": "0599",
+                    "label": "Rotterdam"
+                },
+                "city": {
+                    "id": "3086",
+                    "label": "Rotterdam"
+                },
+                "letter": null,
+                "geo": {
+                    "center": {
+                        "rd": {
+                            "type": "Point",
+                            "coordinates": [
+                                92690.47,
+                                436835.69
+                            ],
+                            "crs": {
+                                "type": "name",
+                                "properties": {
+                                    "name": "urn:ogc:def:crs:EPSG::28992"
+                                }
+                            }
+                        },
+                        "wgs84": {
+                            "type": "Point",
+                            "coordinates": [
+                                4.4815228,
+                                51.9165164
+                            ],
+                            "crs": {
+                                "type": "name",
+                                "properties": {
+                                    "name": "urn:ogc:def:crs:OGC:1.3:CRS84"
+                                }
+                            }
+                        }
+                    }
+                },
+                "nen5825": {
+                    "postcode": "3011 ED",
+                    "street": "SCHIEDAMSEDIJK"
+                },
+                "addition": null,
+                "number": 50,
+                "year": 1954,
+                "province": {
+                    "id": "28",
+                    "label": "Zuid-Holland"
+                },
+                "id": "0599200000443388",
+                "type": "Verblijfsobject",
+                "street": "Schiedamsedijk",
+                "_links": {
+                    "self": {
+                        "href": "https://api.postcodeapi.nu/v2/addresses/0599200000443388/"
+                    }
+                }
+            }
+        ]
+    },
+    "_links": {
+        "self": {
+            "href": "https://api.postcodeapi.nu/v2/addresses/?postcode=3011ED&number=50"
+        }
+    }
+}
